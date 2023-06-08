@@ -10,7 +10,7 @@
 */
 
 const $ = new Env("查询油价");
-var region = $.getdata("地区") || "fujian";
+var region = $.getdata("地区") || "anhui";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
